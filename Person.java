@@ -33,6 +33,18 @@ public class Person{
     public int getSal(){
         return sal;
     }
+    public void setName(String name) {
+        this.name = name;
+    }
+    public void setAddress(String address) {
+        this.address = address;
+    }
+    public void setAge(int age) {
+        this.age = age;
+    }
+    public void setSal(int sal) {
+        this.sal = sal;
+    }
 
 
     
