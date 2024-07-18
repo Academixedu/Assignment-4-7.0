@@ -27,7 +27,7 @@ public static void main(String[]args){
  BugFix b=new BugFix(1,"BugName");
  String change="Updated"; 
   b.setBid(1);
-  b.setBname("Updated BugName");
+  b.setBname("Updated BName");
   System.out.println(b.getBid());
   System.out.println(b.getBname());
   System.out.println(change);
