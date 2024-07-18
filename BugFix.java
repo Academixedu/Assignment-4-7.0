@@ -1,33 +1,40 @@
-public class BugFix{
- private int Bid;
-  private String Bname;
+public  class BugFix{
+
+ private int Eid;
+ private String Ename;
   
-  public int getBid() {
-    return Bid;
+public int getEid() {
+    return Eid;
 }
 
-public void setBid(int bid) {
-    Bid = bid;
+public void setEid(int eid) {
+    this.Eid = eid;
 }
 
-public String getBname() {
-    return Bname;
+public String getEname() {
+    return Ename;
 }
 
-public void setBname(String bname) {
-    Bname = bname;
+public void setEname(String ename) {
+    this.Ename = ename;
 }
 
-public BugFix(int bid, String bname) {
-    this.Bid = bid;
-    this.Bname = bname;
+public  BugFix(int eid, String ename) {
+    this.Eid = eid;
+    this.Ename = ename;
 }
 
 public static void main(String[]args){
- BugFix b=new BugFix();
- String change=" "; 
-  b.setBid(1);
-  b.setBname("");
-  System.out.println(b.getBid());
-  System.out.println(b.getBname());
-  }}
+    BugFix b =new BugFix(12,"sarvesh");
+ String change="passed the paremeter in constrctor "; 
+ b.setEid(1);
+  b.setEname("sarvseh");
+ 
+
+
+  System.out.println(b.getEid());
+  System.out.println(b.getEname());
+  }
+}
+
+
