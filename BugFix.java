@@ -7,7 +7,7 @@ public class BugFix{
 }
 
 public void setBid(int bid) {
-    Bid = bid;
+   this.Bid = bid;
 }
 
 public String getBname() {
@@ -15,19 +15,19 @@ public String getBname() {
 }
 
 public void setBname(String bname) {
-    Bname = bname;
+    this.Bname = bname;
 }
 
-public BugFix(int bid, String bname) {
-    this.Bid = bid;
-    this.Bname = bname;
+public BugFix() {
+    this.Bid = Bid;
+    this.Bname = Bname;
 }
 
 public static void main(String[]args){
  BugFix b=new BugFix();
  String change=" "; 
   b.setBid(1);
-  b.setBname("");
+  b.setBname("MANI");
   System.out.println(b.getBid());
   System.out.println(b.getBname());
   }}
