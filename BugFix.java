@@ -18,16 +18,17 @@ public void setBname(String bname) {
     Bname = bname;
 }
 
-public BugFix(int bid, String bname) {
-    this.Bid = bid;
-    this.Bname = bname;
+public BugFix() {
+    this.Bid = Bid;
+    this.Bname = Bname;
 }
 
 public static void main(String[]args){
- BugFix b=new BugFix();
- String change=" "; 
+ BugFix b = new BugFix();
+ String change="provide id,name";
   b.setBid(1);
-  b.setBname("");
+  b.setBname("kavitha");
   System.out.println(b.getBid());
   System.out.println(b.getBname());
-  }}
+  }
+}

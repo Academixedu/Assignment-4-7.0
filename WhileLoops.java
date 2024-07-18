@@ -2,10 +2,14 @@ public class WhileLoops{
 public static void main(String[]args){
   int a=30;
 int i=0;
-  while(i>a){
+  while(i<a)
+  {
     System.out.println("Hello World "+i);
-    i--;
-}
-  String change="";
+    i++;
+  }
+  String change="Bugs fixed,i++,<";
   // Fix The Bugs
+  System.out.println(change);
+ 
+}
 }
