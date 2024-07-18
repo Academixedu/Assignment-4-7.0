@@ -7,7 +7,7 @@ public class BugFix{
 }
 
 public void setBid(int bid) {
-    Bid = bid;
+    this.Bid = bid;
 }
 
 public String getBname() {
@@ -15,7 +15,7 @@ public String getBname() {
 }
 
 public void setBname(String bname) {
-    Bname = bname;
+    this.Bname = bname;
 }
 
 public BugFix(int bid, String bname) {
@@ -24,10 +24,12 @@ public BugFix(int bid, String bname) {
 }
 
 public static void main(String[]args){
- BugFix b=new BugFix();
- String change=" "; 
+ BugFix b=new BugFix(0, null);
+ String change="We have to add this keyword in setbit and setbname methods" ;
   b.setBid(1);
   b.setBname("");
   System.out.println(b.getBid());
   System.out.println(b.getBname());
-  }}
+  System.out.println(change);
+  }
+}
