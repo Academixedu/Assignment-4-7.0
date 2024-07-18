@@ -6,8 +6,43 @@
 // Like Wise the person who gets less than 36 is considered as Grade F
 // Variables should use
 public class IfElse{
-  public int score=60;
+  public int score=37;
   public static void main(String[]args){
 IfElse f=new IfElse();
    // Complete the Reamaining Logic using score variable for a value
-}
+   if(f.score>90 && f.score<=100)
+   {
+    System.out.println("A+");
+  }
+    else if(f.score>80 && f.score<=90)
+    {
+      System.out.println("A");
+    }
+    else if(f.score>70 && f.score<=80)
+    {
+      System.out.println("B+");
+    }
+      else if(f.score>60 && f.score<=70)
+      {
+        System.out.println("B");
+      }
+        else if(f.score>36)
+        {
+          System.out.println("F");
+        }
+          else {
+            System.out.println("fail");
+          }
+
+        }
+
+      }
+
+    
+
+    
+
+
+   
+
+
