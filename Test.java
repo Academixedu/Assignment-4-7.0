@@ -15,7 +15,5 @@ public static void main(String[]args){
     System.out.println("Address is "+person1.getaddress());
     System.out.println("age is "+person1.getAge());
     System.out.println("salary is "+person1.getSal());
-    
-
- }
+  }
 }
