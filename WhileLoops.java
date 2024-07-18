@@ -8,5 +8,6 @@ int i=0;
 }
   String change=">,--";
   // Fix The Bugs
+  System.out.println(change );
 }
 }
