@@ -1,11 +1,13 @@
 public class WhileLoops{
-public static void main(String[]args){
+  public static void main(String[] args){
   int a=30;
-int i=0;
-  while(i>a){
-    System.out.println("Hello World "+i);
-    i--;
-}
-  String change="";
-  // Fix The Bugs
-}
+  int i=0;
+    while(i<=a){
+      System.out.println("Hello World "+i);
+      i++;
+  }
+    String change="changed the condition > to <";
+    System.out.println(change);
+    // Fix The Bugs
+  }
+  }
