@@ -13,30 +13,35 @@ public class IfElse{
 IfElse f=new IfElse();
    // Complete the Reamaining Logic using score variable for a value
 
-   if((f.score >= 90) && (f.score <= 100))
+   if(f.score>90 && f.score<=100){
+    System.out.println("A+");
+    }
+    else if(f.score>80 && f.score<=90){
+      System.out.println("A");
+  
+    }
+    else if(f.score>70 && f.score<=80){
+      System.out.println("B+");
+  
+    }
+    else if(f.score>60 && f.score<=50){
+      System.out.println("B");
+  
+    }
+    else if(f.score>50 && f.score <=60)
    {
-      System.out.println("Grade is A+" );
-   }
-
-   else if((f.score >= 80) && (f.score <= 90))
-   {
-    System.out.println("Grade is A" );
-   }
-   
-   
-   else if((f.score >= 60) && (f.score <= 50))
-   {
-    System.out.println("Grade is B" );
-   }
-
-   else if((f.score < 36))
-   {
-    System.out.println("Grade is FAIL" );
-   }
-
-   else{
-    System.out.println("INVALID SCORE" );
-   }
+  
+    System.out.println("C");}
+  
+    else if (f.score < 36){
+  
+  
+      System.out.println("FAIL");
+  
+    }
+    else{
+      System.out.println("INVALID SCORE");
+    }
    
 }
 }
