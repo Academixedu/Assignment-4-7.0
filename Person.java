@@ -27,10 +27,12 @@ public class Person{
         this.age=age;
         this.sal=sal;
     }
-    public int getAge(){
+    public int getAge()
+    {
         return age;
     }
-    public int getSal(){
+    public int getSal()
+    {
         return sal;
     }
     public void setName(String name) {
