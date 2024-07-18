@@ -9,5 +9,37 @@ public class IfElse{
   public int score=60;
   public static void main(String[]args){
 IfElse f=new IfElse();
+if(f.score>90 && f.score<=100){
+  System.out.println("A+");
+  }
+  else if(f.score>80 && f.score<=90){
+    System.out.println("A");
+    
+  }
+  else if(f.score>70 && f.score<=80){
+    System.out.println("B");
+
+  }
+  else if(f.score>60 && f.score<=70){
+    System.out.println("B");
+
+  }
+  else if(f.score>50 && f.score <=60)
+ {
+
+  System.out.println("C");}
+
+  else if (f.score>36 && f.score<=50){
+
+  
+    System.out.println("D");
+
+  }
+  else{
+    System.out.println("F");
+  }
+
+
    // Complete the Reamaining Logic using score variable for a value
+}
 }
