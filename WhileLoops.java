@@ -8,6 +8,5 @@ int i=0;
 }
   String change="changing the incorrect condition and decrement into increment";
   System.out.println(change);
-  // Fix The Bugs
 }
 }
