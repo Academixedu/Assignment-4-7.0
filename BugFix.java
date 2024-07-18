@@ -26,7 +26,7 @@ public BugFix() {
 public static void main(String[]args){
  BugFix b = new BugFix();
  String change="provide id,name";
-  b.setBid(14);
+  b.setBid(1);
   b.setBname("kavitha");
   System.out.println(b.getBid());
   System.out.println(b.getBname());
