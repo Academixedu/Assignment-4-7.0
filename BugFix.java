@@ -1,6 +1,10 @@
 public class BugFix{
  private int Bid;
   private String Bname;
+
+  public BugFix(){
+    this.Bid=0;
+    this.Bname="";  }
   
   public int getBid() {
     return Bid;
@@ -25,9 +29,9 @@ public BugFix(int bid, String bname) {
 
 public static void main(String[]args){
  BugFix b=new BugFix();
- String change=" "; 
+
   b.setBid(1);
-  b.setBname("");
+  b.setBname("Shreyash");
   System.out.println(b.getBid());
   System.out.println(b.getBname());
   }}
