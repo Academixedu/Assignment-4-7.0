@@ -24,10 +24,10 @@ public BugFix(int bid, String bname) {
 }
 
 public static void main(String[]args){
- BugFix b=new BugFix();
+ BugFix b=new BugFix(7, "abc");
  String change=" "; 
   b.setBid(1);
-  b.setBname("");
+  b.setBname("abc");
   System.out.println(b.getBid());
   System.out.println(b.getBname());
   }}
